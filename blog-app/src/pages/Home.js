@@ -1,9 +1,14 @@
+import Base from "../Components/Base";
+
 const Home =()=>{
     return(
-        <div>
+        <Base>
+         <div>
             <h1>This is Home Page</h1>
             <p>Welcome to Home Page</p>
         </div>
+        </Base>
+       
 
     );
 };
