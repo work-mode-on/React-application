@@ -13,3 +13,8 @@ Framework used:
 1. We are using ReactStrap to made UI for sign up/ login app
 2. <FormGroup>  Keep 2 things inside it Label and Input component 
 3. React State is use to store the value before it is send to server
+
+Server:
+1. Axios is used to send server calls
+2. React-toastify is used to message display(Response)
+3. Server URL:
