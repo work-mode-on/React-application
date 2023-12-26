@@ -1,7 +1,7 @@
-// import { myAxios } from "./helper";
+import { myAxios } from "./helper";
 
-// const signUp = (user)=>{
-//     return myAxios
-//         .post('/api/auth/login')
-//         .then((response) => response.json())
-// }
+export const signUp = (user) => {
+    return myAxios
+        .post('/api/auth/login',user)
+        .then((response) => response.json())
+}

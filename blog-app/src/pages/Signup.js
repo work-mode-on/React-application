@@ -1,6 +1,7 @@
 import { Button, Card, CardBody, CardHeader, Col, Container, Form, FormGroup, Input, Label, Row } from "reactstrap";
 import Base from "../Components/Base";
 import { useEffect, useState } from "react";
+import { signUp } from "../Services/user-service";
 
 {/*Component */}
 const Signup =()=>{
@@ -49,6 +50,14 @@ const Signup =()=>{
         // data Validate
 
         //call server api for sending data
+        signUp(data)
+        .then((resp) => {
+            console.log(resp);
+            console.log("success log");
+        }).catch((error) =>{
+            console.log(error);
+            console.log("Error Log");
+        })
     }
 
     return(
