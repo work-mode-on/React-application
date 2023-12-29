@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: ga.hariss.blogs.BlogApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.213 s <<< FAILURE! - in ga.hariss.blogs.BlogApplicationTests
+ga.hariss.blogs.BlogApplicationTests  Time elapsed: 0.212 s  <<< ERROR!
+java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+
